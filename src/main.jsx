@@ -8,11 +8,13 @@ import Donation from "./Pages/Donation";
 import Statistics from "./Pages/Statistics";
 import Details from "./Pages/Details";
 import { Toaster } from "react-hot-toast";
+import Error from "./components/Error";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Layout />,
+    errorElement: <Error/>,
     children: [
       {
         path: "/",

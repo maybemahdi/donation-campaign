@@ -18,7 +18,7 @@ const DonatedCard = ({ data }) => {
         </button>
         <h3 className="text-[18px] text-black font-bold">{title}</h3>
         <h4 style={{color: textColor}} className="text-base font-bold">${price.toFixed(2)}</h4>
-        <Link to={'/'}>
+        <Link to={`/donate-details/${id}`}>
           <button
             className="p-2 rounded-md text-white text-base mb-2"
             style={{ backgroundColor: textColor }}
