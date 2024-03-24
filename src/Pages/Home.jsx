@@ -34,7 +34,7 @@ const Home = () => {
           </label>
           <button
             onClick={handleSearch}
-            className="btn rounded-l-none bg-red-500 w-full lg:w-fit -ml-2 mt-4 btn-secondary"
+            className="btn lg:rounded-l-none bg-red-500 w-full lg:w-fit -ml-2 mt-4 btn-secondary"
           >
             Search Here...
           </button>
